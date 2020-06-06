@@ -1,0 +1,42 @@
+
+{% extends "base.html" %}
+
+<div class="Container" dir="rtl">
+
+  <!--page content-->
+  <div class="row">
+    <div class="col-sm-9">
+      
+      <div class="card-group">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">سالن یک </h5>
+            <p class="card-text">
+              <form action="message.html" method="POST">
+                <div class="form-group">
+                  <label for="talafnum">تعداد تلفات</label>
+                  <input type="number" class="form-control" id="talafnum" >
+                </div>
+                <div class="form-group">
+                  <label for="hazfnum">تعداد حذفی</label>
+                  <input type="number" class="form-control" id="hazfnum" >
+                </div>
+                <div class="form-group">
+                  <label for="dan">وزن دان مصرفی</label>
+                  <input type="number" class="form-control" id="dan" >
+                </div>
+
+                <div class="form-group">
+                  <label for="desc">توضیحات </label>
+                  <input type="text" class="form-control" id="desc" >
+                </div>
+                <button type="submit" class="btn btn-primary">ثبت اطلاعات</button>
+              </form>
+          </p>
+          </div>
+        </div>
+
+       
+
+</div>
